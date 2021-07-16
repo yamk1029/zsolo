@@ -1,0 +1,149 @@
+/*
+theme:solo
+font family:rubik
+color:
+yellow:#fac613;
+grey:#212226;
+white smoke:#f4f4f4;
+white:#000000;
+black:#000000;
+*/
+
+h1{
+    font-family: rubik;
+}
+html,body{
+  height: 100%;
+}
+body{
+  color: #212226;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: rubik;
+}
+p{
+  font-family: rubik;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 24px;
+
+}
+section{
+  background: #fff;
+  overflow: hidden;
+}
+
+
+
+#preloader{
+ background-color:#212226;
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0%;
+ right: 0%;
+}
+
+#status{
+background-image: url("../img/loading.gif") ;
+position: absolute;
+width: 150px;
+height: 150px;
+top: 40%;
+left:47%;
+margin-left:-35px;
+margin-top: -35px;
+}
+/********
+Home section
+*********/
+
+#home-bg-video{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform:translateX(-50%) translateY(-50%) ;
+  -webkit-transform:translateX(-50%) translateY(-50%);
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+#home-overlay{
+background-color: rgba(0, 0, 0, 0.7);
+height: 100%;
+width: 100%;
+position:fixed;
+top: 0%;
+left: 0%;
+z-index: -1
+}
+
+/******************
+Home content
+*******************/
+#home-content-inner{
+  /* display: table-cell;
+vertical-align: middle; */
+margin-top:10%;
+}
+
+#home-heading-1{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0%;
+  display: inline-block;
+
+}
+#home-heading-1 span{
+  color: #fac613;
+  font-weight: 500;
+
+}
+
+#home-text p{
+  color: #fff;
+  font-size: 17px;
+  font-weight: border:100;
+  margin: 8px 0 30px 0;
+}
+
+.btn-general{
+font-family:"rubik";
+border-radius: 28px;
+font-size: 13px;
+text-transform: uppercase;
+margin: 0 6px;
+padding: 12px 46px;
+-webkit-transform: all .3s;
+transition: all .3s;
+}
+
+.btn-home{
+color: #fff;
+border: 1px solid #fff;
+}
+
+.btn-home:hover,.btn-home:focus{
+  color: #fff;
+  background-color: #fac613;
+  border: 1px solid #fac613;
+}
+
+#arrow-down{
+position: absolute;
+left:50%;
+bottom:20px;
+color: #fff;
+font-size: 32px;
+width: 32px;
+height: 32px;
+text-align: center;
+margin-left: -16px;
+z-index: 1;
+
+}
