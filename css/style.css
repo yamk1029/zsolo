@@ -515,4 +515,10 @@ overflow: visible;
   border:1px solid #212121;
 }
 
+#portfolio-wrapper img{
+  width: 100%;
+}
 
+#portfolio .vertical-heading{
+  margin-bottom: 50px;
+}
